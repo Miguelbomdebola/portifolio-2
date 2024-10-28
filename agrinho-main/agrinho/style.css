@@ -1,0 +1,103 @@
+/* Reset básico */
+body, h1, h2, p, img, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+section {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+section img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.section-field {
+    background: #e8f5e9;
+    padding: 1rem;
+}
+
+.section-field img {
+    width: 80%; /* Ajuste a largura das imagens para 80% da largura do contêiner */
+    max-width: 600px; /* Define um tamanho máximo para a imagem */
+}
+
+.section-city {
+    background: #c5cae9;
+    padding: 1rem;
+}
+
+.section-city img {
+    width: 80%; /* Ajuste a largura das imagens para 80% da largura do contêiner */
+    max-width: 600px; /* Define um tamanho máximo para a imagem */
+}
+
+.section-opportunity {
+    background: #fff3e0;
+    padding: 1rem;
+}
+
+.section-opportunity img {
+    width: 80%; /* Ajuste a largura das imagens para 80% da largura do contêiner */
+    max-width: 600px; /* Define um tamanho máximo para a imagem */
+}
+
+.section-opportunity button {
+    background: #FF5722;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.section-opportunity button:hover {
+    background: #E64A19;
+}
+
+footer {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+}
